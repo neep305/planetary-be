@@ -12,6 +12,7 @@ app.config['MONGODB_SETTINGS'] = {
     'port': 27017
 }
 
+
 @app.route('/')
 def hello_world():
     return 'Hello World'
